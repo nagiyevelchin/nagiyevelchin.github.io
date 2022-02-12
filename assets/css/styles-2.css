@@ -62,3 +62,20 @@ p{line-height:1.5;}
 .main-wrapper .upper-row{margin-bottom:0;}
 }
 @media (min-width:992px){}
+.tags ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+}
+.tags ul li{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.tags ul li a{
+	display: block;
+	background: #4CAC9D;
+	padding: 3px 10px;
+	border-radius: 50px;
+	color:#fff;
+	text-decoration: none;
+}
